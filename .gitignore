@@ -1,0 +1,4 @@
+*.o
+label-letter
+.vscode
+*.code-workspace

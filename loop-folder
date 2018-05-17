@@ -1,0 +1,8 @@
+#/bin/sh
+
+CDIR=`pwd`
+cd $1
+for f in *.jpg; do
+  $CDIR/label-letter -t -f $f
+done
+cd $CDIR
